@@ -1,0 +1,26 @@
+{
+  "name": "payiopayment/offlinepayments",
+  "description": "Pay iO Payment for Magento 2",
+  "require": {
+    "php": "7.3.21"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tika",
+      "email": "tigranuhi@gohacktech.com",
+      "homepage": "https://www.payio.co.uk/",
+      "role": "developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "payiopayment\\offlinepayments\\": ""
+    }
+  }
+}
